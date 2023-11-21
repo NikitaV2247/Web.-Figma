@@ -5,7 +5,7 @@
     text-decoration: none;
 }
 body {
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(41, 38, 38);
 }
 .container {
     margin: 0;
@@ -15,7 +15,7 @@ header >.container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: bisque;
+    background-color: rgb(43, 41, 39);
     height: 50px;
     border-radius: 0px 0px 8px 8px;
     padding: 0px 100px;
@@ -23,7 +23,7 @@ header >.container {
 .menu-items-header li a {
     font-family: "IBM Plex Mono";
     cursor: pointer;
-    color: rgb(81, 45, 182);
+    color: rgb(207, 204, 214);
 }
 .menu-items-header {
     display: flex;
@@ -36,4 +36,52 @@ header >.container {
 .img-header {
     display: flex;
     align-items: center;
+}
+.main-portfolio > .conteiner{  
+    display: flex;  
+    align-items: center;  
+    justify-content: center;  
+    flex-direction: column;  
+    width: 100%;  
+  
+}  
+.main-portfolio{  
+    display: flex;  
+    flex-direction: row; 
+    justify-content: space-around;  
+    align-items: center; 
+    margin: 60px 0px; 
+ 
+}  
+.title-portfolio{  
+    color: #fff;  
+    font-size: 44px;  
+    padding-bottom: 20px; 
+}  
+.text-portfolio{  
+    color: #9C9C9C;  
+    font-size: 20px;  
+ 
+}  
+.button-portfolio{  
+    width: 307.89px;  
+    height: 63px;  
+    border-radius: 4px;  
+    border: 1px solid #62BA1B;  
+    background: #3F8E00;  
+    box-shadow: 0px 8px 30px 0px rgba(63, 142, 0, 0.50);  
+    color: #fff;  
+    font-size: 16px;  
+    margin-top: 20px; 
+}  
+ 
+.img-portfolio{  
+    width: 350px;  
+    height: 350px;  
+    border-radius: 50%;  
+}
+.main-img {
+    width: 350px;
+    height: 350px;
+    border-radius: 350px;
 }
